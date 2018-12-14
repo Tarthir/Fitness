@@ -1,7 +1,7 @@
 package com.tylerbrady34gmail.fitness;
 
 public class Anaerobic implements IExercise {
-
+    //TODO description
     private String name;
     private int repetitions;
     private int weight;

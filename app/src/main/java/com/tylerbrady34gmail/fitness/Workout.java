@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Workout {
-
+    //TODO name/description of workout
     private List<IExercise> exerciseList;
     //date//
 

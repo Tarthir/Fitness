@@ -1,8 +1,7 @@
 package com.tylerbrady34gmail.fitness;
 
 public class Aerobic implements IExercise {
-
-    //time//
+    //TODO description
     private String distance;
     private String name;
 

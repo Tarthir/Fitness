@@ -11,7 +11,20 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
     @Test
-    public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
+    public void testMakeUser() {
+        User myUser;
+        myUser = new User("Tre", 24, 100, 165, true);
+        assertEquals(myUser.getName(),"Tre");
+        assertNotEquals(myUser.getAge(),30);
+    }
+
+    @Test
+    public void testMakeExercises() {
+        //TODO each type, use IExercise
+    }
+
+    @Test
+    public void testMakeWorkout() {
+        //TODO
     }
 }
